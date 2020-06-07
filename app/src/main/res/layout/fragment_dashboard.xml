@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="姓名"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Alice"
+            android:textColor="#000000"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="年龄  "
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="21"
+            android:textColor="#000000"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="籍贯"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="#000000"
+            android:text="重庆"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="爱好"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="Coding"
+            android:textSize="@dimen/fab_margin" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="公司"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="#000000"
+            android:text="字节Swing科技有限公司"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="签名"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_6"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="#000000"
+            android:text="无"
+            android:textSize="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/change"
+        style="@style/Theme.AppCompat"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="修改当前个人信息"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
